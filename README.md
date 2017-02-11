@@ -1,1 +1,3 @@
 # SuspenseAdventure
+
+alteraçãoDoCodigo
