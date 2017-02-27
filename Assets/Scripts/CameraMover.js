@@ -1,7 +1,7 @@
 #pragma strict
 
 var target : Transform;
-public var distance = 10;
+public var distance = 15;
 public var targetHeight = 2.0;
 private var x = 0.0;
 private var y = 0.0;  
