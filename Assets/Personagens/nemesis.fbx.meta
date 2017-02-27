@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0be9af74bea863649b94d4f2668187fe
-timeCreated: 1487739011
+guid: 81eef4123b977704caf22ea991066aec
+timeCreated: 1488155222
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -64,11 +64,9 @@ ModelImporter:
     400054: Point.001
     400056: Point.002
     4300000: Cube.001
-    7400000: Parado
+    7400000: Parada
     7400002: Correndo
     7400004: Pulando
-    7400006: Morrendo
-    7400008: PegandoItem
     9500000: //RootNode
     13700000: Cube.001
   materials:
@@ -93,7 +91,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Parado
+      name: Parada
       takeName: Armature.001|Armature.001Action
       firstFrame: 0
       lastFrame: 99
@@ -268,179 +266,7 @@ ModelImporter:
       name: Pulando
       takeName: Armature.001|Armature.001Action
       firstFrame: 180
-      lastFrame: 199
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature.001
-        weight: 1
-      - path: Armature.001/Bone
-        weight: 1
-      - path: Armature.001/Bone/Bone.007
-        weight: 1
-      - path: Armature.001/Bone/Bone.007/Bone.009
-        weight: 1
-      - path: Armature.001/Bone/Bone.007/Bone.009/Bone.010
-        weight: 1
-      - path: Armature.001/Bone/Bone.007/Bone.009/Bone.010/Bone.010_end
-        weight: 1
-      - path: Armature.001/Bone/Bone.008
-        weight: 1
-      - path: Armature.001/Bone/Bone.008/Bone.011
-        weight: 1
-      - path: Armature.001/Bone/Bone.008/Bone.011/Bone.012
-        weight: 1
-      - path: Armature.001/Bone/Bone.008/Bone.011/Bone.012/Bone.012_end
-        weight: 1
-      - path: Armature.001/Bone/Bone.013
-        weight: 1
-      - path: Armature.001/Bone/Bone.013/Bone.014
-        weight: 1
-      - path: Armature.001/Bone/Bone.013/Bone.014/Bone.014_end
-        weight: 1
-      - path: Armature.001/Bone.001
-        weight: 1
-      - path: Armature.001/Bone.001/Bone.003
-        weight: 1
-      - path: Armature.001/Bone.001/Bone.003/Bone.005
-        weight: 1
-      - path: Armature.001/Bone.001/Bone.003/Bone.005/Bone.005_end
-        weight: 1
-      - path: Armature.001/Bone.002
-        weight: 1
-      - path: Armature.001/Bone.002/Bone.004
-        weight: 1
-      - path: Armature.001/Bone.002/Bone.004/Bone.006
-        weight: 1
-      - path: Armature.001/Bone.002/Bone.004/Bone.006/Bone.006_end
-        weight: 1
-      - path: Camera
-        weight: 1
-      - path: Cube.001
-        weight: 1
-      - path: Lamp
-        weight: 1
-      - path: Point
-        weight: 1
-      - path: Point.001
-        weight: 1
-      - path: Point.002
-        weight: 1
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Morrendo
-      takeName: Armature.001|Armature.001Action
-      firstFrame: 200
-      lastFrame: 220
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature.001
-        weight: 1
-      - path: Armature.001/Bone
-        weight: 1
-      - path: Armature.001/Bone/Bone.007
-        weight: 1
-      - path: Armature.001/Bone/Bone.007/Bone.009
-        weight: 1
-      - path: Armature.001/Bone/Bone.007/Bone.009/Bone.010
-        weight: 1
-      - path: Armature.001/Bone/Bone.007/Bone.009/Bone.010/Bone.010_end
-        weight: 1
-      - path: Armature.001/Bone/Bone.008
-        weight: 1
-      - path: Armature.001/Bone/Bone.008/Bone.011
-        weight: 1
-      - path: Armature.001/Bone/Bone.008/Bone.011/Bone.012
-        weight: 1
-      - path: Armature.001/Bone/Bone.008/Bone.011/Bone.012/Bone.012_end
-        weight: 1
-      - path: Armature.001/Bone/Bone.013
-        weight: 1
-      - path: Armature.001/Bone/Bone.013/Bone.014
-        weight: 1
-      - path: Armature.001/Bone/Bone.013/Bone.014/Bone.014_end
-        weight: 1
-      - path: Armature.001/Bone.001
-        weight: 1
-      - path: Armature.001/Bone.001/Bone.003
-        weight: 1
-      - path: Armature.001/Bone.001/Bone.003/Bone.005
-        weight: 1
-      - path: Armature.001/Bone.001/Bone.003/Bone.005/Bone.005_end
-        weight: 1
-      - path: Armature.001/Bone.002
-        weight: 1
-      - path: Armature.001/Bone.002/Bone.004
-        weight: 1
-      - path: Armature.001/Bone.002/Bone.004/Bone.006
-        weight: 1
-      - path: Armature.001/Bone.002/Bone.004/Bone.006/Bone.006_end
-        weight: 1
-      - path: Camera
-        weight: 1
-      - path: Cube.001
-        weight: 1
-      - path: Lamp
-        weight: 1
-      - path: Point
-        weight: 1
-      - path: Point.001
-        weight: 1
-      - path: Point.002
-        weight: 1
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: PegandoItem
-      takeName: Armature.001|Armature.001Action
-      firstFrame: 240
-      lastFrame: 260
+      lastFrame: 200
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
