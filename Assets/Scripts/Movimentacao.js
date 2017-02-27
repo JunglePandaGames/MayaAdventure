@@ -5,6 +5,7 @@ var velocidadeFrente : float;
 var velocidadeCima : float;
 var velocidadeLado : float;
 private final var ROTATE_SCALE : float = 90;
+private final var ITEM_TAG : String = "Item"; 
 private final var turnSpeed : float = 200f;
 
 
@@ -15,6 +16,7 @@ var rigidBody : Rigidbody;
 //[Header("Animation")]
 var isRunning : boolean = false;
 var isJumping : boolean = false;
+final var isPickingObject : String = "isPickingObject"; 
 
 function Start () {
     animator = GetComponent("Animator");
@@ -93,3 +95,9 @@ function UpdateAnimetionParameters(){
     animator.SetBool("isJumping", isJumping);
 }
 
+function OnCollisionEnter (col : Collision){
+    if(col.gameObject.tag == ITEM_TAG){
+        // Destroy(col.gameObject);
+        animator.SetTrigger(isPickingObject);
+    }
+}
