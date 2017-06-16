@@ -1,8 +1,8 @@
 #pragma strict
 
 var target : Transform;
-public var distance = 15;
-public var targetHeight = 2.0;
+public var distance = 20;
+public var targetHeight = 0;
 private var x = 0.0;
 private var y = 0.0;  
  
