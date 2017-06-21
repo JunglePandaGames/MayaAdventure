@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: ad7047c7a3338fe4e90578213d33158a
+timeCreated: 1498009867
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Belly_Ctrl
+    100002: Belly_Ctrl_Group
+    100004: Body_Mesh
+    100006: Bone
+    100008: Bone_003
+    100010: Bone_004
+    100012: Bone_005
+    100014: Bone_006
+    100016: Bone_009
+    100018: Bone_010
+    100020: Bone_011
+    100022: Bone_012
+    100024: Bone_013
+    100026: Bone_014
+    100028: Chest_Group
+    100030: cluster1_Ctrl
+    100032: cluster1_Ctrl_Group
+    100034: cluster2_Ctrl
+    100036: cluster2_Ctrl_Group
+    100038: cluster3_Ctrl
+    100040: cluster3_Ctrl_Group
+    100042: Ctrls_Group
+    100044: Data_Group
+    100046: Elbow_L_End
+    100048: Elbow_R_End
+    100050: Head_Ctrl
+    100052: Head_Ctrl_Group
+    100054: Head_End
+    100056: Hips_Ctrl
+    100058: Hips_Ctrl_Group
+    100060: IKHandle_Group
+    100062: Knee_L_End
+    100064: Knee_R_End
+    100066: L_Arm_Ctrl
+    100068: L_Arm_Ctrl_Group
+    100070: L_Arm_IKHandle
+    100072: L_Arm_IKHandle_Group
+    100074: L_Arm_Pole_Ctrl
+    100076: L_Arm_Pole_Ctrl_Group
+    100078: L_Clavicle_Ctrl
+    100080: L_Clavicle_Ctrl_Group
+    100082: L_Hips_Ctrl
+    100084: L_Hips_Ctrl_Group
+    100086: L_Leg_Ctrl
+    100088: L_Leg_Ctrl_Group
+    100090: L_Leg_IKHandle
+    100092: L_Leg_IKHandle_Group
+    100094: Master_Ctrl
+    100096: Master_Group
+    100098: Mesh
+    100100: pasted__Mesh
+    100102: R_Arm_Ctrl
+    100104: R_Arm_Ctrl_Group
+    100106: R_Arm_IKHandle
+    100108: R_Arm_IKHandle_Group
+    100110: R_Arm_Pole_Ctrl
+    100112: R_Arm_Pole_Ctrl_Group
+    100114: R_Clavicle_Ctrl
+    100116: R_Clavicle_Ctrl_Group
+    100118: R_Hips_Ctrl
+    100120: R_Hips_Ctrl_Group
+    100122: R_Leg_Ctrl
+    100124: R_Leg_Ctrl_Group
+    100126: R_Leg_IKHandle
+    100128: R_Leg_IKHandle_Group
+    100130: Root_Ctrl
+    100132: Root_Ctrl_Group
+    100134: Scalable_Group
+    100136: Spline_Group
+    100138: Spline_IKH
+    100140: Spline_IKH_Curve
+    100142: Static_Group
+    100144: //RootNode
+    400000: Belly_Ctrl
+    400002: Belly_Ctrl_Group
+    400004: Body_Mesh
+    400006: Bone
+    400008: Bone_003
+    400010: Bone_004
+    400012: Bone_005
+    400014: Bone_006
+    400016: Bone_009
+    400018: Bone_010
+    400020: Bone_011
+    400022: Bone_012
+    400024: Bone_013
+    400026: Bone_014
+    400028: Chest_Group
+    400030: cluster1_Ctrl
+    400032: cluster1_Ctrl_Group
+    400034: cluster2_Ctrl
+    400036: cluster2_Ctrl_Group
+    400038: cluster3_Ctrl
+    400040: cluster3_Ctrl_Group
+    400042: Ctrls_Group
+    400044: Data_Group
+    400046: Elbow_L_End
+    400048: Elbow_R_End
+    400050: Head_Ctrl
+    400052: Head_Ctrl_Group
+    400054: Head_End
+    400056: Hips_Ctrl
+    400058: Hips_Ctrl_Group
+    400060: IKHandle_Group
+    400062: Knee_L_End
+    400064: Knee_R_End
+    400066: L_Arm_Ctrl
+    400068: L_Arm_Ctrl_Group
+    400070: L_Arm_IKHandle
+    400072: L_Arm_IKHandle_Group
+    400074: L_Arm_Pole_Ctrl
+    400076: L_Arm_Pole_Ctrl_Group
+    400078: L_Clavicle_Ctrl
+    400080: L_Clavicle_Ctrl_Group
+    400082: L_Hips_Ctrl
+    400084: L_Hips_Ctrl_Group
+    400086: L_Leg_Ctrl
+    400088: L_Leg_Ctrl_Group
+    400090: L_Leg_IKHandle
+    400092: L_Leg_IKHandle_Group
+    400094: Master_Ctrl
+    400096: Master_Group
+    400098: Mesh
+    400100: pasted__Mesh
+    400102: R_Arm_Ctrl
+    400104: R_Arm_Ctrl_Group
+    400106: R_Arm_IKHandle
+    400108: R_Arm_IKHandle_Group
+    400110: R_Arm_Pole_Ctrl
+    400112: R_Arm_Pole_Ctrl_Group
+    400114: R_Clavicle_Ctrl
+    400116: R_Clavicle_Ctrl_Group
+    400118: R_Hips_Ctrl
+    400120: R_Hips_Ctrl_Group
+    400122: R_Leg_Ctrl
+    400124: R_Leg_Ctrl_Group
+    400126: R_Leg_IKHandle
+    400128: R_Leg_IKHandle_Group
+    400130: Root_Ctrl
+    400132: Root_Ctrl_Group
+    400134: Scalable_Group
+    400136: Spline_Group
+    400138: Spline_IKH
+    400140: Spline_IKH_Curve
+    400142: Static_Group
+    400144: //RootNode
+    2300000: Mesh
+    3300000: Mesh
+    4300000: pasted__Mesh
+    4300002: Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pasted__Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
