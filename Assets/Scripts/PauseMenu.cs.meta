@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 378fe0ec03805594f80a30cc9a344543
+timeCreated: 1498010853
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - minhaSkin: {fileID: 11400000, guid: 1b7b2e4a7f788b6438ce562f46cdc523, type: 2}
+  - RESOLUCOES: {instanceID: 0}
+  - SensibilidadeMouse: {instanceID: 0}
+  - QUALIDADE: {instanceID: 0}
+  - Volumes: {instanceID: 0}
+  - ModoJanela: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
