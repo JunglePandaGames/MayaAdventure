@@ -6,41 +6,41 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cena/Menu.unity
+    path: Assets/_Adventure/Scenes/Menu.unity
     guid: 39dfa6a4dec2cf344bf602c977a94fb9
   - enabled: 1
-    path: Assets/Cena/Mapa1.unity
+    path: Assets/_Adventure/Scenes/Mapa1.unity
     guid: 6804cbb9e71a5c544b3e819289f38288
   - enabled: 0
-    path: Assets/Cena/Mapa2.unity
+    path: Assets/_Adventure/Scenes/Mapa2.unity
     guid: 5fcca8373ff493e4ca35973314eaadc8
   - enabled: 0
-    path: Assets/Cena/Mapa3.unity
+    path: Assets/_Adventure/Scenes/Mapa3.unity
     guid: bcbb40cb98bd38f4d97d5585b0f2cde5
   - enabled: 0
-    path: Assets/Cena/Mapa4.unity
+    path: Assets/_Adventure/Scenes/Mapa4.unity
     guid: 3d3d9bf52a48cc8418c17ce4c253a4fe
   - enabled: 0
-    path: Assets/Cena/Mapa5.unity
+    path: Assets/_Adventure/Scenes/Mapa5.unity
     guid: 90b2d7edbfcf70345bd6264080a72107
   - enabled: 0
-    path: Assets/Cena/Mapa6.unity
+    path: Assets/_Adventure/Scenes/Mapa6.unity
     guid: b332aadfbc3838d41812133a36bf5b3a
   - enabled: 1
-    path: Assets/Cena/Caverna_3.unity
+    path: Assets/_Adventure/Scenes/Caverna_3.unity
     guid: a0e1c86a3878f114a87371b278ca1006
   - enabled: 1
-    path: Assets/Cena/Caverna_2.unity
+    path: Assets/_Adventure/Scenes/Caverna_2.unity
     guid: 98f588bba6888f640bab915301f0f65d
   - enabled: 1
-    path: Assets/Cena/Caverna_1.unity
+    path: Assets/_Adventure/Scenes/Caverna_1.unity
     guid: 56bb97b1ac10d894192d6556c7965bbc
   - enabled: 1
-    path: Assets/Cena/GameOver.unity
+    path: Assets/_Adventure/Scenes/GameOver.unity
     guid: 4d77aa2b950e97743ada3ddf869d04bc
   - enabled: 1
-    path: Assets/Cena/Mapa_nemeses.unity
+    path: Assets/_Adventure/Scenes/Mapa_nemeses.unity
     guid: 8a8d88f92f51bff4ebefaae0ec25ba6e
   - enabled: 1
-    path: Assets/Cena/Intro.unity
+    path: Assets/_Adventure/Scenes/Intro.unity
     guid: 25068e8014591bc4cb98019f366c4a4c

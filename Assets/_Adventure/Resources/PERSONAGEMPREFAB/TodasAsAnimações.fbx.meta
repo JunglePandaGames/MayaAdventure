@@ -1,0 +1,2854 @@
+fileFormatVersion: 2
+guid: ad7047c7a3338fe4e90578213d33158a
+timeCreated: 1497771495
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Belly_Ctrl
+    100002: Belly_Ctrl_Group
+    100004: Body_Mesh
+    100006: Bone
+    100008: Bone_003
+    100010: Bone_004
+    100012: Bone_005
+    100014: Bone_006
+    100016: Bone_009
+    100018: Bone_010
+    100020: Bone_011
+    100022: Bone_012
+    100024: Bone_013
+    100026: Bone_014
+    100028: Chest_Group
+    100030: cluster1_Ctrl
+    100032: cluster1_Ctrl_Group
+    100034: cluster2_Ctrl
+    100036: cluster2_Ctrl_Group
+    100038: cluster3_Ctrl
+    100040: cluster3_Ctrl_Group
+    100042: Ctrls_Group
+    100044: Data_Group
+    100046: Elbow_L_End
+    100048: Elbow_R_End
+    100050: Head_Ctrl
+    100052: Head_Ctrl_Group
+    100054: Head_End
+    100056: Hips_Ctrl
+    100058: Hips_Ctrl_Group
+    100060: IKHandle_Group
+    100062: Knee_L_End
+    100064: Knee_R_End
+    100066: L_Arm_Ctrl
+    100068: L_Arm_Ctrl_Group
+    100070: L_Arm_IKHandle
+    100072: L_Arm_IKHandle_Group
+    100074: L_Arm_Pole_Ctrl
+    100076: L_Arm_Pole_Ctrl_Group
+    100078: L_Clavicle_Ctrl
+    100080: L_Clavicle_Ctrl_Group
+    100082: L_Hips_Ctrl
+    100084: L_Hips_Ctrl_Group
+    100086: L_Leg_Ctrl
+    100088: L_Leg_Ctrl_Group
+    100090: L_Leg_IKHandle
+    100092: L_Leg_IKHandle_Group
+    100094: Master_Ctrl
+    100096: Master_Group
+    100098: Mesh
+    100100: pasted__Mesh
+    100102: R_Arm_Ctrl
+    100104: R_Arm_Ctrl_Group
+    100106: R_Arm_IKHandle
+    100108: R_Arm_IKHandle_Group
+    100110: R_Arm_Pole_Ctrl
+    100112: R_Arm_Pole_Ctrl_Group
+    100114: R_Clavicle_Ctrl
+    100116: R_Clavicle_Ctrl_Group
+    100118: R_Hips_Ctrl
+    100120: R_Hips_Ctrl_Group
+    100122: R_Leg_Ctrl
+    100124: R_Leg_Ctrl_Group
+    100126: R_Leg_IKHandle
+    100128: R_Leg_IKHandle_Group
+    100130: Root_Ctrl
+    100132: Root_Ctrl_Group
+    100134: Scalable_Group
+    100136: Spline_Group
+    100138: Spline_IKH
+    100140: Spline_IKH_Curve
+    100142: Static_Group
+    100144: //RootNode
+    400000: Belly_Ctrl
+    400002: Belly_Ctrl_Group
+    400004: Body_Mesh
+    400006: Bone
+    400008: Bone_003
+    400010: Bone_004
+    400012: Bone_005
+    400014: Bone_006
+    400016: Bone_009
+    400018: Bone_010
+    400020: Bone_011
+    400022: Bone_012
+    400024: Bone_013
+    400026: Bone_014
+    400028: Chest_Group
+    400030: cluster1_Ctrl
+    400032: cluster1_Ctrl_Group
+    400034: cluster2_Ctrl
+    400036: cluster2_Ctrl_Group
+    400038: cluster3_Ctrl
+    400040: cluster3_Ctrl_Group
+    400042: Ctrls_Group
+    400044: Data_Group
+    400046: Elbow_L_End
+    400048: Elbow_R_End
+    400050: Head_Ctrl
+    400052: Head_Ctrl_Group
+    400054: Head_End
+    400056: Hips_Ctrl
+    400058: Hips_Ctrl_Group
+    400060: IKHandle_Group
+    400062: Knee_L_End
+    400064: Knee_R_End
+    400066: L_Arm_Ctrl
+    400068: L_Arm_Ctrl_Group
+    400070: L_Arm_IKHandle
+    400072: L_Arm_IKHandle_Group
+    400074: L_Arm_Pole_Ctrl
+    400076: L_Arm_Pole_Ctrl_Group
+    400078: L_Clavicle_Ctrl
+    400080: L_Clavicle_Ctrl_Group
+    400082: L_Hips_Ctrl
+    400084: L_Hips_Ctrl_Group
+    400086: L_Leg_Ctrl
+    400088: L_Leg_Ctrl_Group
+    400090: L_Leg_IKHandle
+    400092: L_Leg_IKHandle_Group
+    400094: Master_Ctrl
+    400096: Master_Group
+    400098: Mesh
+    400100: pasted__Mesh
+    400102: R_Arm_Ctrl
+    400104: R_Arm_Ctrl_Group
+    400106: R_Arm_IKHandle
+    400108: R_Arm_IKHandle_Group
+    400110: R_Arm_Pole_Ctrl
+    400112: R_Arm_Pole_Ctrl_Group
+    400114: R_Clavicle_Ctrl
+    400116: R_Clavicle_Ctrl_Group
+    400118: R_Hips_Ctrl
+    400120: R_Hips_Ctrl_Group
+    400122: R_Leg_Ctrl
+    400124: R_Leg_Ctrl_Group
+    400126: R_Leg_IKHandle
+    400128: R_Leg_IKHandle_Group
+    400130: Root_Ctrl
+    400132: Root_Ctrl_Group
+    400134: Scalable_Group
+    400136: Spline_Group
+    400138: Spline_IKH
+    400140: Spline_IKH_Curve
+    400142: Static_Group
+    400144: //RootNode
+    2300000: Mesh
+    3300000: Mesh
+    4300000: pasted__Mesh
+    4300002: Mesh
+    7400000: Andando
+    7400002: Parada
+    7400004: Correndo
+    7400006: Pulando
+    7400008: Aterrissando
+    7400010: PuloCompleto
+    7400012: Morrendo
+    7400014: AtaqueParado
+    7400016: Ataque1
+    7400018: Ataque2
+    7400020: Ataque3
+    7400022: "Intera\xE7\xE3o"
+    7400024: CarregandoItem
+    7400026: TomandoDano
+    7400028: Magia
+    9500000: //RootNode
+    13700000: pasted__Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Andando
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Parada
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Correndo
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pulando
+      takeName: Take 001
+      firstFrame: 127
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aterrissando
+      takeName: Take 001
+      firstFrame: 145
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PuloCompleto
+      takeName: Take 001
+      firstFrame: 127
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Morrendo
+      takeName: Take 001
+      firstFrame: 166
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AtaqueParado
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ataque1
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ataque2
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ataque3
+      takeName: Take 001
+      firstFrame: 321
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "Intera\xE7\xE3o"
+      takeName: Take 001
+      firstFrame: 365
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CarregandoItem
+      takeName: Take 001
+      firstFrame: 405
+      lastFrame: 429
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TomandoDano
+      takeName: Take 001
+      firstFrame: 435
+      lastFrame: 455
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Magia
+      takeName: Take 001
+      firstFrame: 461
+      lastFrame: 485
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Mesh
+        weight: 1
+      - path: Body_Mesh/pasted__Mesh
+        weight: 1
+      - path: Ctrls_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/L_Clavicle_Ctrl_Group/L_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Chest_Group/Belly_Ctrl_Group/Belly_Ctrl/Head_Ctrl_Group/Head_Ctrl/R_Clavicle_Ctrl_Group/R_Clavicle_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/L_Hips_Ctrl_Group/L_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/Hips_Ctrl_Group/Hips_Ctrl/R_Hips_Ctrl_Group/R_Hips_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Arm_Ctrl_Group/L_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/L_Leg_Ctrl_Group/L_Leg_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Arm_Ctrl_Group/R_Arm_Ctrl
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group
+        weight: 1
+      - path: Ctrls_Group/Master_Group/Master_Ctrl/Root_Ctrl_Group/Root_Ctrl/R_Leg_Ctrl_Group/R_Leg_Ctrl
+        weight: 1
+      - path: Data_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_003/Bone_005/Knee_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_004/Bone_006/Knee_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_009/Bone_010/Elbow_R_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_011/Bone_012/Elbow_L_End
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014
+        weight: 1
+      - path: Data_Group/Scalable_Group/Bone/Bone_013/Bone_014/Head_End
+        weight: 1
+      - path: Data_Group/Static_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster1_Ctrl_Group/cluster1_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster2_Ctrl_Group/cluster2_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group
+        weight: 1
+      - path: Data_Group/Static_Group/cluster3_Ctrl_Group/cluster3_Ctrl
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Arm_IKHandle_Group/L_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/L_Leg_IKHandle_Group/L_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Arm_IKHandle_Group/R_Arm_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group
+        weight: 1
+      - path: Data_Group/Static_Group/IKHandle_Group/R_Leg_IKHandle_Group/R_Leg_IKHandle
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH
+        weight: 1
+      - path: Data_Group/Static_Group/Spline_Group/Spline_IKH_Curve
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: L_Arm_Pole_Ctrl_Group/L_Arm_Pole_Ctrl
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group
+        weight: 1
+      - path: R_Arm_Pole_Ctrl_Group/R_Arm_Pole_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
